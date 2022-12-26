@@ -1,0 +1,41 @@
+---
+import AppHeader from '../components/AppHeader.vue'
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+const { frontmatter } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{ title || frontmatter.title } | Filip Rakowski</title>
+	</head>
+	<body class="bg-primary">
+		<AppHeader />
+		<main class="container mx-auto my-10">
+		  <slot />
+		</main>
+	</body>
+</html>
+
+<style>
+
+</style>
+
+<style is:global>
+body {
+	/* text-slate-300 */
+	color: rgb(203 213 225);
+}
+
+/* *:hover {
+	  outline: 1px solid red;
+} */
+</style>
