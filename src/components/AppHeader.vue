@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="/" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
+                    <a href="/about" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
                         About me
                     </a>
                 </li>

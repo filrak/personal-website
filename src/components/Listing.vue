@@ -6,10 +6,7 @@
 
 <script setup>
 import Post from './Post.vue'
-import { ref } from 'vue'
-import { getPosts } from '../services/getPosts'
 
-const posts = ref({})
-
-posts.value = await getPosts()
+const props = defineProps(['posts'])
+console.log(props)
 </script>

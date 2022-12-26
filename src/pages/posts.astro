@@ -1,11 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Listing from '../components/Listing.vue'
+import { staticPosts } from '../data/posts'
+import { getPosts } from '../services/getPosts'
+
+const devtoposts = await getPosts()
+const vsposts = staticPosts
 ---
 
 <Layout title="Writings">
-	<h1 class="text-5xl font-bold tracking-tight mb-10 px-5">I write about <span class="text-accent">#eCommerce</span>, <span class="text-accent">#webperf</span> and <span class="text-accent">#OpenSource</span></h1>
-	<Listing />
+	<h1 class="text-5xl font-bold tracking-tight mb-10 px-5">I write about <span class="text-accent">#eCommerce</span>, <span class="text-accent">#webperf</span>, <span class="text-accent">#OpenSource</span> and being a tech startup founder.</h1>
+	<Listing posts={devtoposts}/>
+	<h2 class="text-3xl font-bold tracking-tight my-10 px-5">My apparently popular series about <span class="text-accent">Vue.js Performance</span> on <a href="https://vueschool.io" class="text-accent hover:underline">Vue School</a></h2>
+	<Listing posts={vsposts}/>
 </Layout>
 
 <style>
