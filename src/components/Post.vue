@@ -4,7 +4,7 @@
         <h2 class="font-bold tracking-tight text-lg">
           {{ post.title }}
         </h2>
-        {{ post.readable_publish_date }}
+        {{ post.readable_date }}
       </a>
     <div class="w-1/4 text-lg pr-5 opacity-60 group-hover:opacity-100">
       <img v-if="post.source === 'devto'" src="/assets/devto.svg" width="30px" height="30px" alt="Article from Dev.to" class="ml-auto"/>
