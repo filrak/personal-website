@@ -19,9 +19,17 @@ const { frontmatter } = Astro.props;
 	</head>
 	<body class="bg-primary">
 		<AppHeader />
-		<main class="container mx-auto my-10">
-		  <slot />
-		</main>
+		{ // separate styling for .md docs
+			frontmatter ?
+				<main class="container mx-auto my-10">
+					<div class="p-5 bg-primary-lighter">
+		  				<slot />
+					</div>
+				</main> :
+				<main class="container mx-auto my-10">
+					<slot />
+				</main>
+		}
 	</body>
 </html>
 

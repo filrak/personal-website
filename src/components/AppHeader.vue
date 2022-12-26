@@ -1,24 +1,24 @@
 <template>
-    <header class="bg-primary-lighter sticky top-0 left-0">
+    <header class="bg-primary-lighter sticky top-0 left-0 z-10">
         <nav class="container mx-auto flex">
             <ul class="inline-flex w-1/2 text-lg">
                 <li class="">
-                    <a  href="/" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
+                    <a href="/" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white hover:bg-primary-lightest inline-flex">
                         Home
                     </a>
                 </li>
                 <li class="">
-                    <a href="/posts" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
+                    <a href="/posts" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white hover:bg-primary-lightest inline-flex">
                         Writing
                     </a>
                 </li>
                 <li class="">
-                    <a href="/speaking" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
+                    <a href="/speaking" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white hover:bg-primary-lightest inline-flex">
                         Speaking
                     </a>
                 </li>
                 <li class="">
-                    <a href="/about" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white inline-flex">
+                    <a href="/about" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white hover:bg-primary-lightest inline-flex">
                         About me
                     </a>
                 </li>

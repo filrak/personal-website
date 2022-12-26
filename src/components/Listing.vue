@@ -8,5 +8,4 @@
 import Post from './Post.vue'
 
 const props = defineProps(['posts'])
-console.log(props)
 </script>
