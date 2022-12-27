@@ -25,10 +25,14 @@
             </ul>
             <ul class="inline-flex flex-row-reverse w-1/2 items-center">
                 <li class="px-5 py-3">
-                  <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">
+                    </a>
                 </li>
                 <li class="px-5 py-3">
-                  <img src="/assets/linkedin.svg" width="18px" height="18px" alt="Follow me on Linkedin">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/linkedin.svg" width="18px" height="18px" alt="Follow me on Linkedin">
+                    </a>
                 </li>
             </ul>
         </nav>

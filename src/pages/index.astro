@@ -3,18 +3,18 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-	<div class="container mx-5 my-10">
-	  <div class="grid lg:grid-cols-2 gap-12 flex items-center">
-		<div class="mt-12 lg:mt-0">
+	<div class="main flex container mx-5 items-center">
+	  <div class="grid lg:grid-cols-2 gap-12">
+		<div class="my-auto">
 		  <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-12">
 		    <span class="text-accent">
 				Hi, I'm Filip! <span class="inline-block wave">👋</span><br />
 			</span>
-			I build products for eCommerce developers </h1>
+			I build products for devs <s>to make their lifes easier</s> because <span class=" text-accent">its fun</span></h1>
 		  <a href="/about" class="inline-block px-7 py-3 mr-2 bg-accent text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-lightest hover:shadow-lg focus:bg-accent focus:shadow-lg focus:outline-none focus:ring-0 active:bg-accent active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Read more about me</a>
-		  <a class="inline-block px-7 py-3 bg-transparent text-accent font-medium text-sm leading-snug uppercase rounded hover:text-black hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Check my Capybara</a>
+		  <a class="inline-block px-7 py-3 bg-transparent text-accent font-medium text-sm leading-snug uppercase rounded hover:text-black hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Check Vue Storefront</a>
 		</div>
-		<div class="inline-flex lg:mb-0">
+		<div>
 		  <img
 			src="/assets/filip.png"
 			class="w-3/4 rounded-lg shadow-lg ml-auto"
@@ -40,5 +40,9 @@ import Layout from '../layouts/Layout.astro';
   100% {
     transform: rotate(0turn);
   }
+}
+
+.main {
+	height: calc(100vh - 200px)
 }
 </style>

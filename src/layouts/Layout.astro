@@ -1,5 +1,7 @@
 ---
 import AppHeader from '../components/AppHeader.vue'
+import AppFooter from '../components/AppFooter.vue'
+
 export interface Props {
 	title: string;
 }
@@ -30,6 +32,7 @@ const { frontmatter } = Astro.props;
 					<slot />
 				</main>
 		}
+		<AppFooter />
 	</body>
 </html>
 
@@ -42,7 +45,9 @@ body {
 	/* text-slate-300 */
 	color: rgb(203 213 225);
 }
-
+.link {
+	@apply text-accent hover:underline
+}
 /* *:hover {
 	  outline: 1px solid red;
 } */
