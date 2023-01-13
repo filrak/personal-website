@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Listing from '../components/Listing.vue'
+import PostListing from '../components/PostListing.vue'
 import { staticPosts } from '../data/posts'
 import { getDevtoPosts } from '../services/getDevtoPosts'
 import { sortPostsByDate } from '../utils';
@@ -12,9 +12,9 @@ const posts = sortPostsByDate([ ...devto, ...staticPosts.vueschool ])
 
 <Layout title="Writings">
 	<h1 class="text-5xl font-bold tracking-tight mb-10 px-5">I write about <span class="text-accent">#eCommerce</span>, <span class="text-accent">#webperf</span>, <span class="text-accent">#OpenSource</span> and being a tech startup founder.</h1>
-	<Listing posts={posts}/>
+	<PostListing posts={posts}/>
 	<h2 class="text-3xl font-bold tracking-tight my-10 px-5">My apparently popular series about <span class="text-accent">Vue.js 2 Performance</span> on <a href="https://vueschool.io" class="text-accent hover:underline">Vue School</a></h2>
-	<Listing posts={vueschoolPerf}/>
+	<PostListing posts={vueschoolPerf}/>
 </Layout>
 
 <style>

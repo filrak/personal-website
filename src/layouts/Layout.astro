@@ -19,16 +19,16 @@ const { frontmatter } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{ title || frontmatter.title } | Filip Rakowski</title>
 	</head>
-	<body class="bg-primary">
+	<body class="bg-primary flex-col flex min-h-screen">
 		<AppHeader />
 		{ // separate styling for .md docs
 			frontmatter ?
-				<main class="container mx-auto my-10">
+				<main class="container mx-auto my-10 grow">
 					<div class="p-5 bg-primary-lighter">
 		  				<slot />
 					</div>
 				</main> :
-				<main class="container mx-auto my-10">
+				<main class="container mx-auto my-10 grow">
 					<slot />
 				</main>
 		}

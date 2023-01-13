@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import TalkListing from '../components/TalkListing.vue'
 import { talks } from '../data/talks'
-import Listing from '../components/Listing.vue'
 ---
 
 <Layout title="Speaking">
@@ -9,7 +9,7 @@ import Listing from '../components/Listing.vue'
         I talked at more than <span class="text-accent">30 international events</span>. <br /> 
         I speak about <span class="text-accent">things that matter to me</span> or that I find <span class="text-accent">interesting.</span>
     </h1>
-    <Listing>
+    <TalkListing talks={talks} />
 </Layout>
 
 <style>

@@ -1,15 +1,17 @@
 const talks = [{
-    title: 'TBA',
+    title: 'How we ',
     date: '2023-05-12',
-    readable_date: '12 - 15 May \'23',
+    readable_date: 'May 12 - 15 \'23',
     event: 'Vue.js Live',
-    link: ''
+    link: '',
+    location: 'UK'
 }, {
-    title: 'TBA',
+    title: 'Secret Announcement!',
     date: '2023-02-09',
-    readable_date: '9 & 10 Feb \'23',
+    readable_date: 'Feb 9 - 10 \'23',
     event: 'Vue.js Amsterdam',
-    link: ''
+    link: '',
+    location: 'NL'
 }]
 
 export { talks }
