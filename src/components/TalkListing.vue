@@ -3,7 +3,7 @@
       <ListingItem  v-for="talk in talks" :key="talk.id" :url="talk.url">
         {{ talk.title }} <span class="text-sm font-medium ml-2 px-2.5 py-0.5 rounded bg-accent text-black text-uppercase">Upcoming</span>
         <template #sub>
-          {{ talk.readable_date }}, 
+          {{ talk.event }}, {{ talk.readable_date }}
         </template>
         <template #side>
           <img v-if="talk.source === 'devto'" src="/assets/devto.svg" width="30px" height="30px" alt="Article from Dev.to" class="ml-auto"/>
