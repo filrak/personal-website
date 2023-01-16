@@ -1,7 +1,7 @@
 <template>
-    <header class="bg-primary-lighter sticky top-0 left-0 z-10">
+    <header class="bg-primary-lighter sticky top-0 left-0 z-10 overflow-scroll px-5 md:0-0">
         <nav class="container mx-auto flex">
-            <ul class="inline-flex w-1/2 text-lg">
+            <ul class="inline-flex md:w-1/2 text-lg whitespace-nowrap">
                 <li class="">
                     <a href="/" class="px-5 py-3 font-bold border-b-2 border-primary-lighter hover:border-b-2 hover:border-accent hover:text-white hover:bg-primary-lightest inline-flex">
                         Home
@@ -23,7 +23,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="inline-flex flex-row-reverse w-1/2 items-center">
+            <ul class="hidden md:inline-flex flex-row-reverse md:w-1/2 items-center">
                 <li class="px-5 py-3">
                     <a href="/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">

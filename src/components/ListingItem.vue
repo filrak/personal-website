@@ -1,6 +1,6 @@
 <template>
     <article class="group flex bg-primary-lighter items-center mb-5 border-b-4 border-primary-lightest transition ease-in-out hover:border-accent hover:text-white hover:bg-primary-lightest">
-        <a class="w-3/4 p-5" :href="url">
+        <a class="p-5" :href="url">
           <h2 class="font-bold tracking-tight text-lg">
             <slot />
           </h2>

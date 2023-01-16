@@ -1,8 +1,8 @@
 const talks = [{
-    title: 'How we ',
+    title: 'You’re probably using Lighthouse wrong - how it works and how to interpret the results corectly.',
     date: '2023-05-12',
     readable_date: 'May 12 - 15 \'23',
-    event: 'You’re probably using Lighthouse wrong - how it works and how to interpret the results corectly.',
+    event: "Vue.js Live",
     link: 'https://vuejslive.com/',
     location: 'UK'
 }, {
