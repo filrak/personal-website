@@ -14,5 +14,4 @@ const talks = [{
     location: 'NL'
 }]
 
-
 export { talks }
