@@ -25,12 +25,12 @@
             </ul>
             <ul class="hidden md:inline-flex flex-row-reverse md:w-1/2 items-center">
                 <li class="px-5 py-3">
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/filrakowski" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">
                     </a>
                 </li>
                 <li class="px-5 py-3">
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/filip-rakowski-a43671129/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/linkedin.svg" width="18px" height="18px" alt="Follow me on Linkedin">
                     </a>
                 </li>
