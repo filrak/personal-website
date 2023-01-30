@@ -23,7 +23,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="hidden md:inline-flex flex-row-reverse md:w-1/2 items-center">
+            <!--- TODO: FIX ICONS ON MOBILE -->
+            <ul class="inline-flex flex-row-reverse md:w-1/2 items-center">
                 <li class="px-5 py-3">
                     <a href="https://twitter.com/filrakowski" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">
