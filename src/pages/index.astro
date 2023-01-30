@@ -3,9 +3,9 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-	<div class="flex container mx-5 items-center">
+	<div class="flex container mx-5">
 	  <div class="grid lg:grid-cols-2 gap-12">
-		<div class="my-auto">
+		<div class="my-auto order-last md:order-first">
 		  <h1 class="text-5xl md:text-6xl font-bold tracking-tight">
 		    <span class="text-accent">
 				Hi, I'm Filip! <span class="inline-block wave">👋</span><br />
@@ -13,10 +13,10 @@ import Layout from '../layouts/Layout.astro';
 			I build products for devs <s>to make their lifes easier</s> because <span class=" text-accent">its fun</span>
 		  </h1>
 		</div>
-		<div>
+		<div class="md:px-0">
 		  <img
 			src="/assets/filip.png"
-			class="w-3/4 rounded-lg shadow-lg ml-auto"
+			class="w-1/2 md:w-3/4 rounded-lg shadow-lg md:ml-auto"
 			alt="Filip photo inside a green circle"
 		  />
 		</div>
