@@ -21,4 +21,5 @@ const talks = [{
     location: 'Online'
 }]
 
+
 export { talks }
