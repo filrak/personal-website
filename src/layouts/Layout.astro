@@ -4,12 +4,11 @@ import AppFooter from '../components/AppFooter.vue'
 
 export interface Props {
 	title: string;
+	classList: string;
 }
 
-const { title } = Astro.props;
-const { frontmatter } = Astro.props;
+const { title, frontmatter, classList } = Astro.props;
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,12 +24,15 @@ const { frontmatter } = Astro.props;
 		{ // separate styling for .md docs
 			frontmatter ?
 				<main class="container mx-auto my-10 grow">
-					<div class="p-5 bg-primary-lighter">
+					<h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-10 px-5"> 
+						{ frontmatter.title }
+					</h1>
+					<article class="p-5 bg-primary-lighter">
 		  				<slot />
-					</div>
+					</article>
 				</main> :
-				// non-md content
-				<main class="container mx-auto my-10 grow px-5 md:px-0">
+				
+				<main class:list={['container mx-auto my-10 grow px-5 md:px-0', classList ]}>
 					<slot />
 				</main>
 		}
@@ -44,25 +46,41 @@ const faviconUrl = document.querySelector("link[rel~='icon']");
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
 	faviconUrl.href="/favicon-gray.svg"
-	console.log(faviconUrl)
   } else {
 	faviconUrl.href="/favicon.svg"
-	console.log(faviconUrl)
   }
 })
 </script>
 
 <style is:global>
 body {
-	/* text-slate-300 */
 	color: rgb(203 213 225);
 }
-/* no-links probably makes much more sense but yolo, its useless optimization */
-footer a, .links a  {
+
+footer a, article a  {
 	@apply text-accent hover:underline
 }
-/* for debugging */
-/* *:hover {
-	  outline: 1px solid red;
-} */
+
+article p {
+	@apply mb-5
+}
+
+article h2 {
+	@apply text-2xl font-bold mb-5
+}
+
+article h3 {
+	@apply text-xl font-bold mb-5
+}
+
+main {
+  opacity: 0;
+  animation: fade-in 0.3s ease-in forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
 </style>
