@@ -23,11 +23,15 @@
                     </a>
                 </li>
             </ul>
-            <!--- TODO: FIX ICONS ON MOBILE -->
             <ul class="inline-flex flex-row-reverse md:w-1/2 items-center">
                 <li class="px-5 py-3">
-                    <a href="https://twitter.com/filrakowski" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/filrakowski" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/twitter.svg" width="18px" height="18px" alt="Follow me on Twitter">
+                    </a>
+                </li>
+                <li class="px-5 py-3">
+                    <a href="https://bsky.app/filrakowski" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/bluesky.svg" width="18px" height="18px" alt="Follow me on Twitter">
                     </a>
                 </li>
                 <li class="px-5 py-3">
