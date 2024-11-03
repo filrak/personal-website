@@ -3,13 +3,17 @@ layout: ../layouts/Layout.astro
 title: About me
 ---
 
-<span class="text-2xl">TL;DR I am a web developer since 2010, startup founder, ex-CTO and a huge fan of Open Source. I'm currently a Chief Developer Experience Officer at my startup, [Vue Storefront](https://vuestorefront.io). I was once on the [cover of Forbes magazine](https://vuestorefront.io/news/filip-rakowski-forbes-30-under-30) (probably by accident).</span>
+<span class="text-2xl">TL;DR I am a web developer since 2010, startup founder, huge fan of open source and a cat person. I'm currently building my startup, [Alokai](https://alokai.com) (formerly known as Vue Storefront) as CTO. I was recognized by Forbes Magazine as [30 Under 30](https://vuestorefront.io/news/filip-rakowski-forbes-30-under-30) and [Digital Shaper (Innovation and Tehcnologies category)](https://digitalshapers.pl/en/winners/2022).</span>
+
+
 
 ## What am I doing now?
 
-I'm building [Vue Storefront](https://vuestorefront.io), an incredibly successful product that began as a side-gig in 2017 and has now emerged as one of the most promising startups in the eCommerce industry. I know, it sounds cheap, but we have awards to prove it! We won the <a href="https://vuestorefront.io/news/vue-storefront-wins-best-ecommerce-startup-at-top-european-tech-awards">Best Retail Startup in Europe</a> award at The Europa's and <a href="https://vuestorefront.io/news/vue-storefront-wins-poland-top-startup-award">Best Startup in Poland Award - Auler</a>!
+I'm building [Alokai](https://alokai.com), a product that began as an Open Source side-gig in 2017 and has now emerged as one of the coolest startups in the eCommerce industry. I know, I am biased, but as a frontend develeper I am **extremely** excited about what we're building.
 
-As a Chief Developer Experience Officer I have only one goal - [deliver the best Developer Experience on the market](https://vuestorefront.io/blog/developer-experience-obsession-as-new-cdxo-heres-why-) with Vue Storefront. I am documentaing our journey on [Vue Storefront Developer Blog](https://dev.to/vue-storefront) and on [Twitter](https://twitter.com/filrakowski).
+[TBD]
+
+We won the <a href="https://alokai.com/news/vue-storefront-wins-best-ecommerce-startup-at-top-european-tech-awards">Best Retail Startup in Europe</a> award at The Europa's and <a href="https://alokai.com/news/vue-storefront-wins-poland-top-startup-award">Best Startup in Poland Award - Auler</a>!
 
 ## Things that excite me
 
